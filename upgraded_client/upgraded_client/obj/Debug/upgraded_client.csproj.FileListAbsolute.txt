@@ -1,0 +1,32 @@
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\bin\Debug\upgraded_client.exe.config
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\bin\Debug\upgraded_client.exe
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\bin\Debug\upgraded_client.pdb
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.dll
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Form1.resources
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Properties.Resources.resources
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csproj.GenerateResource.Cache
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\obj\Debug\upgraded_client.exe
+C:\Users\MARKO\Documents\Visual Studio 2015\Projects\upgraded_client\upgraded_client\obj\Debug\upgraded_client.pdb
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\bin\Debug\upgraded_client.exe.config
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.exe
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.pdb
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\bin\Debug\upgraded_client.exe
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\bin\Debug\upgraded_client.pdb
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.dll
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csprojResolveAssemblyReference.cache
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Form1.resources
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Properties.Resources.resources
+C:\Users\Jura\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csproj.GenerateResource.Cache
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\bin\Debug\upgraded_client.exe.config
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.exe
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.pdb
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\bin\Debug\upgraded_client.exe
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\bin\Debug\upgraded_client.pdb
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.dll
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csprojResolveAssemblyReference.cache
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Form1.resources
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Properties.Resources.resources
+C:\Users\Zeke\Desktop\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csproj.GenerateResource.Cache
