@@ -47,10 +47,12 @@ C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semesta
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\bin\Debug\upgraded_client.pdb
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.dll
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\bin\Debug\M2Mqtt.Net.pdb
-C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csprojResolveAssemblyReference.cache
-C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Form1.resources
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.Properties.Resources.resources
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csproj.GenerateResource.Cache
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csproj.CoreCompileInputs.cache
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.exe
 C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.pdb
+C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.FrmConnectedToTopic.resources
+C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.FrmMain.resources
+C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.FrmLogin.resources
+C:\Users\juras\Desktop\Fakultet\Preddiplomski - Informacijski sustavi\5. semestar\Mreže računala II\Projekt\Mqtt\upgraded_client\upgraded_client\obj\Debug\upgraded_client.csprojResolveAssemblyReference.cache
