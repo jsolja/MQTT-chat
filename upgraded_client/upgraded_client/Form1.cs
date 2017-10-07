@@ -30,17 +30,19 @@ namespace upgraded_client
         private void button1_Click(object sender, EventArgs e)
         {
             if (!(string.IsNullOrEmpty(textBox1.Text)))
+            {
                 posalji();
+            }
         }
 
         private void prijavaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             label1.Show();
-            label2.Show();
+
             label3.Show();
             label4.Show();
             textBox2.Show();
-            textBox3.Show();
+
             textBox4.Show();
             textBox5.Show();
             button2.Show();
@@ -51,12 +53,10 @@ namespace upgraded_client
             button1.Hide();
             novaTemaToolStripMenuItem.Visible = false;
             label1.Hide();
-            label2.Hide();
             label3.Hide();
             label4.Hide();
             textBox1.Hide();
             textBox2.Hide();
-            textBox3.Hide();
             textBox4.Hide();
             textBox5.Hide();
             button2.Hide();
@@ -71,16 +71,13 @@ namespace upgraded_client
                 broker_address = textBox5.Text;
                 tema = textBox4.Text;
                 user = textBox2.Text;
-                password = textBox3.Text;
-                povezano=povezi();
+                povezano = povezi();
                 if (povezano == 1)
                 {
                     label1.Hide();
-                    label2.Hide();
                     label3.Hide();
                     label4.Hide();
                     textBox2.Hide();
-                    textBox3.Hide();
                     textBox4.Hide();
                     textBox5.Hide();
                     button2.Hide();
@@ -89,10 +86,6 @@ namespace upgraded_client
                     button1.Show();
                     novaTemaToolStripMenuItem.Visible = true;
                     prijavaToolStripMenuItem.Visible = false;
-                }
-                else
-                {
-
                 }
             }
         }
@@ -115,12 +108,10 @@ namespace upgraded_client
             if (this.richTextBox1.InvokeRequired)
             {
                 SetText(System.Text.Encoding.UTF8.GetString(e.Message));
-                
             }
             else
             {
                 richTextBox1.Text +="\n" + e.Message;
-                
             }
         }
         private int povezi()
@@ -134,16 +125,13 @@ namespace upgraded_client
             {
                 return 0;
             }
-                msgId_S = client.Subscribe(new string[] {tema},
-                                           new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
+
+            msgId_S = client.Subscribe(new string[] {tema}, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
             String timeStamp = GetTimestamp(DateTime.Now);
-            richTextBox1.Text = "Povezan! Tema: ";
-                richTextBox1.AppendText(tema.ToString());
-                client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
-                msgId_P = client.Publish(tema,
-                Encoding.UTF8.GetBytes("[" + timeStamp + "] " + user + " je povezan."),
-                MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE,
-                true);
+            richTextBox1.Text = "Connected! Topic: ";
+            richTextBox1.AppendText(tema.ToString());
+            client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
+            msgId_P = client.Publish(tema, Encoding.UTF8.GetBytes("[" + timeStamp + "] " + user + " connected."), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
             return 1;
          }
 
@@ -153,12 +141,12 @@ namespace upgraded_client
             button1.Hide();
             novaTemaToolStripMenuItem.Visible = false;
             label1.Hide();
-            label2.Hide();
+
             label3.Hide();
             label4.Hide();
             textBox1.Hide();
             textBox2.Hide();
-            textBox3.Hide();
+
             textBox4.Hide();
             textBox5.Hide();
             button2.Hide();
@@ -173,7 +161,7 @@ namespace upgraded_client
             if (povezano == 1){
                 String timeStamp = GetTimestamp(DateTime.Now);
                 msgId_P = client.Publish(tema,
-                Encoding.UTF8.GetBytes("[" + timeStamp + "] " + user + " je otišao."),
+                Encoding.UTF8.GetBytes("[" + timeStamp + "] " + user + " left."),
                 MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE,
                 true);
                 client.Disconnect();
@@ -220,5 +208,6 @@ namespace upgraded_client
             true);
             textBox1.Clear();
         }
+
     }
 }
